@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar {
+    display: flex;
+    text-align: center;
+    background-color: black;
+    opacity: 1;
+  }
+  
+  #logo {
+    margin: -2px 11px;
+  }
+  
+  #logo img {
+    height: 91px;
+    width: 185px;
+  }
+  
+  #navbar ul {
+    display: flex;
+  }
+  
+  #navbar ul li {
+    list-style: none;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 14px 22px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Rubik Beastly', cursive;
+  }
+  
+  #navbar ul li a:hover {
+    background-color: sandybrown;
+    color: rgb(97, 95, 95);
+    border-radius: 14px;
+  }
+  
+  .home {
+    padding: 24px 34px;
+    padding: 41px 7px;
+    background: url('images/new\ image.webp') no-repeat center center/cover;
+    opacity: 0.92;
+  }
+  
+  .home h2 {
+    color: #16cefde6;
+    font-size: 48px;
+    padding-left: 149px;
+    font-family: 'Ultra', serif;
+    font-family: 'Yellowtail', cursive;
+  }
+  
+  #para1,
+  #para2 {
+    color: #f29224;
+    width: 50%;
+    font-size: 21px;
+    padding-left: 213px;
+    font-family: 'Great Vibes', cursive;
+  }
+  
+  .container {
+    padding-left: 400px;
+  }
+  
+  .btn {
+    color: rgb(214, 211, 197);
+    background-color: rgb(29, 28, 39);
+    border: 2px solid rgb(102, 233, 63);
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3px 15px;
+  }
+  
+  .btn:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  #service-heading {
+    text-align: center;
+    margin: 22px 17px;
+    font-size: 44px;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+  
+  .services {
+    display: flex;
+  }
+  
+  .box {
+    border: 2px solid rgb(166 140 17);
+    padding: 23px 30px;
+    margin: 16px 4px;
+    border-radius: 35px;
+    background-color: rgb(58 82 99 / 32%);
+  }
+  
+  .box img {
+    height: 188px;
+    width: 273px;
+    padding-left: 50px;
+  }
+  
+  .box-heading {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Great Vibes', cursive;
+  }
+  
+  .box p {
+    font-family: 'Golos Text', sans-serif;
+    font-size: 19px;
+    color: rgb(13 8 65);
+  }
+  
+  .clients {
+    background: url('images/pizza-386717_960_720.webp') no-repeat center center/cover;
+    height: 300px;
+    opacity: 0.89;
+  }
+  
+  #clients-heading {
+    text-align: center;
+    font-size: 45px;
+    margin: 6px 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logos img {
+    height: 90px;
+    width: 96px;
+    padding: 38px 18px;
+  }
+  
+  /* Responsive styles */
+  
+  @media screen and (max-width: 900px) {
+    #navbar ul li a {
+      padding: 10px 16px;
+      font-size: 16px;
+    }
+  
+    .home h2 {
+      font-size: 32px;
+      padding-left: 50px;
+    }
+  
+    #para1,
+    #para2 {
+      width: 80%;
+      font-size: 16px;
+      padding-left: 50px;
+    }
+  
+    .container {
+      padding-left: 200px;
+    }
+  
+    .box img {
+      height: 120px;
+      width: 180px;
+      padding-left: 0;
+    }
+  
+    .box p {
+      font-size: 16px;
+    }
+  
+    .clients {
+      height: 200px;
+    }
+  
+    #clients-heading {
+      font-size: 30px;
+    }
+  
+    .logos img {
+      height: 60px;
+      width: 64px;
+      padding: 20px 10px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #navbar ul li a {
+      padding: 8px 14px;
+      font-size: 14px;
+    }
+  
+    .home h2 {
+      font-size: 24px;
+      padding-left: 20px;
+    }
+  
+    #para1,
+    #para2 {
+      width: 90%;
+      font-size: 16px;
+      padding-left: 20px;
+    }
+  
+    .container {
+      padding-left: 100px;
+    }
+  
+    .box img {
+      height: 90px;
+      width: 140px;
+      padding-left: 0;
+    }
+  
+    .box p {
+      font-size: 14px;
+    }
+  
+    .clients {
+      height: 150px;
+    }
+  
+    #clients-heading {
+      font-size: 24px;
+    }
+  
+    .logos img {
+      height: 40px;
+      width: 44px;
+      padding: 10px 6px;
+    }
+  }
+  
